@@ -9,7 +9,7 @@ body {
 }
 
 .left-section {
-    background-image: url("../resourses/Background.jpeg");
+    background-image: url("../resources/Background.jpeg");
     background-size: cover;
     width: 40%;
 }
@@ -50,4 +50,20 @@ li {
     flex-direction: column;
     padding: 1% 0;
     margin-right: 10%;
+}
+
+input {
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input:valid:focus {
+    border: 2px solid green;
+    outline: none;
+}
+
+input:invalid:focus {
+    border: 2px solid red;
+    outline: none;
 }
