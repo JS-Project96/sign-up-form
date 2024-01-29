@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+}
+
+.left-section {
+    background-color: red;
+    width: 40%;
+}
+
+.right-section {
+    background-color: green;
+    justify-content: space-between;
+}
