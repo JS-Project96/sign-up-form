@@ -1,5 +1,6 @@
 .container {
     display: flex;
+    height: 90vh;
 }
 
 .left-section {
@@ -8,6 +9,9 @@
 }
 
 .right-section {
+    display: flex;
+    flex-direction: column;
     background-color: green;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
 }
