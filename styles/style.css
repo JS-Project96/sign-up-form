@@ -1,10 +1,11 @@
 .container {
     display: flex;
-    height: 90vh;
+    height: 100vh;
 }
 
 .left-section {
-    background-color: red;
+    background-image: url("../resourses/Background.jpeg");
+    background-size: cover;
     width: 40%;
 }
 
