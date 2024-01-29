@@ -34,9 +34,8 @@
 ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     list-style: none;
-    padding: 0;
+    padding: 0  10%;
     width: 500px;
 }
 
@@ -44,4 +43,5 @@ li {
     display: flex;
     flex-direction: column;
     padding: 1% 0;
+    margin-right: 10%;
 }
