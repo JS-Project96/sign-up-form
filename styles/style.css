@@ -11,7 +11,7 @@
 .right-section {
     display: flex;
     flex-direction: column;
-    background-color: green;
+    background-color: rgb(255, 255, 255);
     align-items: center;
     justify-content: space-evenly;
     width: 60%;
@@ -20,6 +20,9 @@
 .form {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
+    padding: 10% 0;
+    background-color: #dbdbdbe5;
 }
 
 ul {
@@ -35,4 +38,5 @@ ul {
 li {
     display: flex;
     flex-direction: column;
+    padding: 1% 0;
 }
