@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
-    <script src="./js/script.js"></script>
+    
     <title>Sign up</title>
 </head>
 <body>
@@ -27,7 +27,7 @@
                     Fill out the form below to create an account.
                 </p>
             </div>
-            <form action="" method="get" class="form">
+            <form action="" method="get" class="form" onsubmit="return checkPassword()">
                 <div class="form-header">Lets do this!</div>
                 <div class="required-info">Labels marked with * are required</div>
                 <ul>
@@ -53,12 +53,12 @@
 
                     <li>
                         <label id="pwd">Password*</label>
-                        <input type="password" id="pwd" name="password" required>
+                        <input type="password" id="pwd" class="pwd1" name="password1" placeholder="Enter password" required>
                     </li>
 
                     <li>
                         <label id="confirm-pwd">Confirm Password*</label>
-                        <input type="password" id="confirm-pwd" name="confirmed-password" required>
+                        <input type="password" id="confirm-pwd" class="pwd2" name="password2" placeholder="Confirm password" required>
                     </li>
                 </ul>
 
@@ -74,5 +74,6 @@
             </div>
         </div>
     </div>
+    <script src="./js/script.js"></script>
 </body>
 </html>

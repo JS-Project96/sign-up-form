@@ -92,14 +92,15 @@ input {
     border: 2px solid #cccccc;
     border-radius: 5px;
     padding: 5px;
+    outline: none;
 }
 
-input:valid:focus {
+input[type=text]:valid:focus, input[type=email]:valid:focus, input[type=tel]:valid:focus{
     border: 2px solid green;
     outline: none;
 }
 
-input:invalid:focus {
+input[type=text]:invalid:focus, input[type=email]:invalid:focus, input[type=tel]:valid:focus {
     border: 2px solid red;
     outline: none;
 }
