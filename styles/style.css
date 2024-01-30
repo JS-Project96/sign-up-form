@@ -86,7 +86,19 @@ button[type=submit] {
     border-radius: 10px;
     margin-left: 10%;
     margin-top: 3%;
-    padding: 15px 10px;
-    font-size: 16px;
+    padding: 15px 0;
+    font-size: 20px;
     width: 20%;
+}
+
+.log-in {
+    font-size: 16px;
+    font-weight: bolder;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.log-in a {
+    text-decoration: none;
+    color: #558000;
 }
