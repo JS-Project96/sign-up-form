@@ -45,7 +45,12 @@ body {
     font-size: 25px;
     font-weight: bolder;
     padding-left: 10%;
+}
+
+.required-info {
+    margin-left: 10%;
     margin-bottom: 2%;
+    font-size: 12px;
 }
 
 ul {

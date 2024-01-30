@@ -24,35 +24,36 @@
             </div>
             <form action="" method="get" class="form">
                 <div class="form-header">Lets do this!</div>
+                <div class="required-info">Labels marked with * are required</div>
                 <ul>
                     <li>
-                        <label id="first_name">First Name</label>
-                        <input type="text" id="first_name" required>
+                        <label id="first_name">First Name*</label>
+                        <input type="text" id="first_name" name=first_name required>
                     </li>
                     
                     <li>
-                        <label id="last_name">Last Name</label>
-                        <input type="text" id="last_name" required>
+                        <label id="last_name">Last Name*</label>
+                        <input type="text" id="last_name" name="last_name" required>
                     </li>
 
                     <li>
-                        <label id="e-mail">Email</label>
-                        <input type="email" id="e-mail" required>
+                        <label id="e-mail">Email*</label>
+                        <input type="email" id="e-mail" name="email" required>
                     </li>
 
                     <li>
                         <label id="telephone">Phone Number</label>
-                        <input type="tel" id="telephone">
+                        <input type="tel" id="telephone" name="tel">
                     </li>
 
                     <li>
-                        <label id="pwd">Password</label>
-                        <input type="password" id="pwd" required>
+                        <label id="pwd">Password*</label>
+                        <input type="password" id="pwd" name="password" required>
                     </li>
 
                     <li>
-                        <label id="confirm-pwd">Confirm Password</label>
-                        <input type="password" id="confirm-pwd" required>
+                        <label id="confirm-pwd">Confirm Password*</label>
+                        <input type="password" id="confirm-pwd" name="confirmed-password" required>
                     </li>
                 </ul>
 
