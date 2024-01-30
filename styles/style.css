@@ -108,4 +108,13 @@ button[type=submit] {
 
 .footer {
     height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer img {
+    width: 5%;
 }
