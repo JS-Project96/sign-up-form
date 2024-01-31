@@ -120,6 +120,12 @@ button[type=submit] {
     width: 20%;
 }
 
+.hint {
+    display: none;
+    color: red;
+    font-size: 12px;
+}
+
 .log-in {
     font-size: 16px;
     font-weight: bolder;
